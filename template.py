@@ -21,6 +21,9 @@ list_of_files = [
      f"src/{package_name}/pipeline/__init__.py",
      f"src/{package_name}/entity/__init__.py",
      f"src/{package_name}/constants/__init__.py",
+    "tests/__init__.py",    
+    "tests/unit/__init__.py",  ## unit test used for testing specific class or the functions
+    "tests/integration/__init__.py",  ## integration testing is used for testing components in pipeline
     "configs/config.yaml",  ## this file contains all our configurations
     "dvc.yaml",   ## For creating the data version control pipeline
     "params.yaml", ## contains the training parameters at one place
