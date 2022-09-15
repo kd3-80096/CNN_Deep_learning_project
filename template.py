@@ -1,7 +1,6 @@
 
-
 import os  ## Programs that import and use 'os' stand a better chance of being portable between different platforms
-from pathlib import Path
+from pathlib import Path  ## for paths to be degined import Path
 
 import logging
 logging.basicConfig(level=logging.INFO, format='[%(asctime)s]: %(message)s:')  ## will give us the asctime and message
