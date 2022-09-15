@@ -14,13 +14,16 @@ AUTHOR_EMAIL = "deveshpatil619@gmail.com"       ## email
 
 setuptools.setup(
     name=SRC_REPO,
-    version=__version__,
+    version="0.0.1",
     author=AUTHOR_USER_NAME,
     author_email=AUTHOR_EMAIL,
     description="A small python package for CNN app",
     long_description=long_description,  ## It will come from the readme file
     long_description_content="text/markdown", ## type of it
-    url=f"https://github.com/{AUTHOR_USER_NAME}/{REPO_NAME}",  
+    url=f"https://github.com/{AUTHOR_USER_NAME}/{REPO_NAME}",
+    python_requires = ">=3.7",     ## Minimum Version of python required
+
+  
     project_urls={
         "Bug Tracker": f"https://github.com/{AUTHOR_USER_NAME}/{REPO_NAME}/issues",
     },
