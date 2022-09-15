@@ -8,7 +8,7 @@ with open("README.md", "r", encoding="utf-8") as f:   ## it will read all the di
 __version__ = "0.0.0"      ## version we need to give to it
 
 REPO_NAME = "CNN_Deep_learning_project"   ## git repository name
-AUTHOR_USER_NAME = "deveshpatil619"          ## git auther name
+AUTHOR_USER_NAME = "deveshpatil619"          ## git author name
 SRC_REPO = "DeepClassifier"                     ## project name
 AUTHOR_EMAIL = "deveshpatil619@gmail.com"       ## email
 
