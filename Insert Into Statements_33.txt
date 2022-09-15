@@ -1,0 +1,14 @@
+select * from motorcycle 
+
+insert into motorcycle values('Scooty','Moped',3)
+
+insert into motorcycle values('Bike','Gear',3)
+
+insert into motorcycle values('Scooty','Moped',3)
+
+insert into motorcycle values('Bike','Gear')  ## Error Code: 1136.Column count doesn't match value count at row 1	0.016 sec
+
+insert into motorcycle (buying,class) values ('Bike','Gear')  ## To enter values into specific columns only
+
+
+
