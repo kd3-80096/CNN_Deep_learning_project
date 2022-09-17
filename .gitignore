@@ -130,5 +130,7 @@ dmypy.json
 
 #vscode
 .vscode/
-*.jpg
-*.zip
+# jpg images ignored
+*.jpg   
+# zip ignored
+*.zip   
