@@ -1,3 +1,5 @@
+## All the libraries needed
+ 
 tensorflow
 dvc
 pandas
@@ -11,3 +13,4 @@ tqdm
 ensure==1.0.2
 joblib
 -e .  ## for installing local package that is installed into src
+
