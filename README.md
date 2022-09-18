@@ -16,3 +16,7 @@
 10. Update the dvc.yaml        ##construct pipelines by defining individual stages in one or more dvc. yaml files
 11. run "dvc repro" for running all the stages in pipeline
 
+
+<!-- ![]("./docs/images/Data Ingestion@2x (1).png) -->
+
+
