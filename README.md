@@ -17,6 +17,6 @@
 11. run "dvc repro" for running all the stages in pipeline
 
 
-<!-- ![]("./docs/images/Data Ingestion@2x (1).png) -->
+<!-- ![]("./docs/images/Data Ingestion@2x (1).png") -->
 
 
