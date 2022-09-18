@@ -17,6 +17,6 @@
 11. run "dvc repro" for running all the stages in pipeline
 
 
-<!-- ![]("./docs/images/Data Ingestion@2x (1).png") -->
+![img](https://raw.githubusercontent.com/deveshpatil619/CNN_Deep_learning_project/main/docs/Data%20Ingestion%402x%20(1).png)
 
 
