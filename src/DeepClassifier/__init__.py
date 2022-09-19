@@ -14,7 +14,7 @@ logging.basicConfig(
     format=logging_str,
     handlers=[                    ## The log handler is the component that effectively writes/displays a log
         logging.FileHandler(log_filepath),   ## we will get the looging info into our logging file
-        logging.StreamHandler(sys.stdout)     ## Here the logging info it will print into the terminal as well
+        #logging.StreamHandler(sys.stdout)     ## Here the logging info it will print into the terminal as well
 
     ])
 
