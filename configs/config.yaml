@@ -1,8 +1,23 @@
 artifacts_root: artifacts   ##where everything will be installed
 
 
-data_ingestion:
+data_ingestion:   ## first stage st01
   root_dir: artifacts/data_ingestion
   source_URL: https://download.microsoft.com/download/3/E/1/3E1C3F21-ECDB-4869-8368-6DEBA77B919F/kagglecatsanddogs_5340.zip
   local_data_file: artifacts/data_ingestion/data.zip
   unzip_dir: artifacts/data_ingestion
+
+prepare_base_model:    ## preparing our model
+  root_dir: artifacts/prepare_base_model
+  base_model_path: artifacts/prepare_base_model/base_model.h5  ## This is the base model we will train
+  updated_base_model_path: artifacts/prepare_base_model/base_model_updated.  ## This is tranfer learning updated model
+
+
+prepare_callbacks:
+  root_dir: artifacts/prepare_callbacks
+  tensorboard_root_log_dir: artifacts/prepare_callbacks/tensorboard_log_dir
+  checkpoint_model_filepath: artifacts/prepare_callbacks/checkpoint_dir/model.h5
+
+training:
+  root_dir: artifacts/training
+  trained_model_path: artifacts/training/model.h5
