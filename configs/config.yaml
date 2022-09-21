@@ -13,7 +13,7 @@ prepare_base_model:    ## preparing our model
   updated_base_model_path: artifacts/prepare_base_model/base_model_updated.  ## This is tranfer learning updated model
 
 
-prepare_callbacks:
+prepare_callbacks:  ## callbacks if the training is stopped in between and we need to restart the training
   root_dir: artifacts/prepare_callbacks
   tensorboard_root_log_dir: artifacts/prepare_callbacks/tensorboard_log_dir
   checkpoint_model_filepath: artifacts/prepare_callbacks/checkpoint_dir/model.h5
