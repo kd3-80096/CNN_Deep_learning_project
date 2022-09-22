@@ -1,3 +1,3 @@
-from DeepClassifier.entity.config_entity import DataIngestionConfig
+from DeepClassifier.entity.config_entity import DataIngestionConfig,PrepareBaseModelConfig
 
 
