@@ -134,3 +134,7 @@ dmypy.json
 *.jpg   
 # zip ignored
 *.zip   
+artifacts/prepare_callbacks/checkpoint_dir/model.h5
+artifacts/prepare_callbacks/tensorboard_log_dir/tb_logs_at_2022-09-21-15-07-59/train/events.out.tfevents.1663753087.LAPTOP-2RQ32QP0.15420.0.v2
+artifacts/prepare_callbacks/tensorboard_log_dir/tb_logs_at_2022-09-21-15-07-59/validation/events.out.tfevents.1663759722.LAPTOP-2RQ32QP0.15420.1.v2
+artifacts/training/model.h5
