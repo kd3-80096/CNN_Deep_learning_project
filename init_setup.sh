@@ -11,5 +11,3 @@ echo [$(date)]: "installing the dev requirements"
 pip install -r requirements_dev.txt
 echo [$(date)]: "END" 
 
-
-
