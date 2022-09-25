@@ -60,7 +60,11 @@ class ConfigurationManager:
                 root_dir=Path(config.root_dir),
                 tensorboard_root_log_dir=Path(config.tensorboard_root_log_dir),
                 checkpoint_model_filepath=Path(config.checkpoint_model_filepath)
-        )
+            )
+
+            return prepare_callback_config
+
+
 
     def get_training_config(self) -> TrainingConfig:
         training = self.config.training
