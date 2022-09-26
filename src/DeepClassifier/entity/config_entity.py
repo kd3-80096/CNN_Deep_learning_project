@@ -2,10 +2,10 @@ from dataclasses import dataclass # This will help us create same structure as a
 from pathlib import Path
 
 
-@dataclass(frozen=True)  ##
+@dataclass(frozen=True)  ## @dataclass Returns the same class as was passed and  "frozen" means an object cannot be modified
 class DataIngestionConfig:
     root_dir: Path  ## here type will be path
-    source_URL: str  ## here type will be
+    source_URL: str  ## here type will be string
     local_data_file: Path
     unzip_dir: Path
 
@@ -42,7 +42,12 @@ class TrainingConfig:
     params_image_size: list
 
 
-
+@dataclass(frozen=True)
+class EvaluationConfig:
+    path_of_model: Path
+    training_data: Path
+    params_image_size: list
+    params_batch_size: int
 
 
 

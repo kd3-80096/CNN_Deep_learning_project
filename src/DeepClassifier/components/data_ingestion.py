@@ -62,3 +62,8 @@ class DataIngestion:
                     zf, f, self.config.unzip_dir
                 )  ## f is the pointer to updated_list_of_files
                 ##
+    def create_test_data(self):
+        """
+        separte 30% of data into test data
+        """
+        pass
