@@ -20,3 +20,16 @@
 ![img](https://raw.githubusercontent.com/deveshpatil619/CNN_Deep_learning_project/main/docs/Data%20Ingestion%402x%20(1).png)
 
 
+
+STEP 1: Set the env variable | Get it from dagshub -> remote tab -> mlflow tab
+
+MLFLOW_TRACKING_URI=https://dagshub.com/deveshpatil619/CNN_Deep_learning_project.mlflow \
+MLFLOW_TRACKING_USERNAME=deveshpatil619 \
+MLFLOW_TRACKING_PASSWORD=bfb47fe0fe79d1f887537f03b89660425bad64fb \
+
+
+STEP 2: install mlflow
+
+STEP 3: Set remote URI
+
+STEP 4: Use context manager of mlflow to start run and then log metrics, params and model
