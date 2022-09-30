@@ -131,7 +131,7 @@ dmypy.json
 #vscode
 .vscode/
 # jpg images ignored
-*.jpg   
+*.jpg  
 # zip ignored
 *.zip   
 artifacts/prepare_callbacks/checkpoint_dir/model.h5

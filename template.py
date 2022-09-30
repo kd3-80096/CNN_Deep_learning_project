@@ -12,7 +12,7 @@ print(Path("x/y/z.txt"))  ## in windows the path address has forward slash
 package_name = "DeepClassifier"
 
 list_of_files = [
-    ".github/workflows/.gitkeep",
+    ".github/workflows/.gitkeep",  ## .gitkeep file will help to keep the empty folder
      f"src/{package_name}/__init__.py",
      f"src/{package_name}/components/__init__.py",
      f"src/{package_name}/utils/__init__.py",
@@ -32,7 +32,7 @@ list_of_files = [
     "setup.py",  ## 
     "setup.cfg",
     "pyproject.toml",  ## required if we are creating the python packages
-    "tox.ini",
+    "tox.ini",  ## testing of project locally
     "research/trials.ipynb" ## for trail purpose we will create these files
 
 ]
@@ -44,7 +44,9 @@ for filepath in list_of_files:
         os.makedirs(filedir,exist_ok=True)  ## condition to check whether file is present in directory
         logging.info(f"Creating directory: {filedir} for file: {filename}") ##creating the filedirectory
 
-    if (not os.path.exists(filepath)) or (os.path.getsize(filepath)==0): ##if file doesn't exist or size is 0kb
+
+    ## Below condition will not overwrite the files
+    if (not os.path.exists(filepath)) or (os.path.getsize(filepath)==0): ##if file doesn't exist or size is 0kb 
         with open(filepath,"w") as f: ## create an empty file
             pass  
             logging.info(f"Creating empty file: {filepath}")
