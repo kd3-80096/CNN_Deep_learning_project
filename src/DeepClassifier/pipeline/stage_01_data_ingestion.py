@@ -6,7 +6,6 @@ STAGE_NAME = "Data Ingestion stage"
 
 
 
-
 def main():
 
 
