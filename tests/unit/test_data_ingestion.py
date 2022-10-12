@@ -8,7 +8,7 @@ class Test_DataIngestion_download:
     data_ingestion_config = DataIngestionConfig(
         root_dir="tests/data/", 
         source_URL="https://raw.githubusercontent.com/c17hawke/raw_data/main/sample_data.zip",  ## url of sample data
-        local_data_file="tests/data/data.zip",    
+        local_data_file="tests/data/sample_data.zip",    
         unzip_dir="tests/data/")
 
     def test_download(self):
