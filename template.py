@@ -1,3 +1,4 @@
+## Skeleton of project
 
 import os  ## Programs that import and use 'os' stand a better chance of being portable between different platforms
 from pathlib import Path  ## for paths to be degined import Path
